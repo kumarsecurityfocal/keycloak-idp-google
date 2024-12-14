@@ -1,0 +1,63 @@
+{
+  "clientId": "https://accounts.google.com/samlrp/03wmq1sr1xl1szk",
+  "name": "Google Cloud",
+  "description": "",
+  "rootUrl": "",
+  "adminUrl": "",
+  "baseUrl": "",
+  "surrogateAuthRequired": false,
+  "enabled": true,
+  "alwaysDisplayInConsole": true,
+  "clientAuthenticatorType": "client-secret",
+  "redirectUris": [
+    "https://accounts.google.com/samlrp/03wmq1sr1xl1szk/acs"
+  ],
+  "webOrigins": [
+    "https://accounts.google.com"
+  ],
+  "notBefore": 0,
+  "bearerOnly": false,
+  "consentRequired": false,
+  "standardFlowEnabled": true,
+  "implicitFlowEnabled": false,
+  "directAccessGrantsEnabled": true,
+  "serviceAccountsEnabled": false,
+  "publicClient": true,
+  "frontchannelLogout": true,
+  "protocol": "saml",
+  "attributes": {
+    "saml.assertion.signature": "true",
+    "saml.force.post.binding": "true",
+    "saml.encrypt": "false",
+    "saml.server.signature": "false",
+    "saml.server.signature.keyinfo.ext": "false",
+    "realm_client": "false",
+    "saml.signing.certificate": "MIIC8zCCAdsCBgGTr5G82jANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDDDJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20vc2FtbHJwLzA0aXgyZmtpMXdqaWFkYzAeFw0yNDEyMTAwNzU0NDRaFw0zNDEyMTAwNzU2MjRaMD0xOzA5BgNVBAMMMmh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbS9zYW1scnAvMDRpeDJma2kxd2ppYWRjMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4L7Rb7H1mbQgxvkupeAfndAb0FiRvtGmkxt4LZgGfJmoIDJt4q4ETFoC496rmwlrpA/4sDLvURhZfW3+1fbMc+z6d8aBIfoVWwcw/JU/GnIqI9naFzV1Y7tXSo9FZMjrzLU1uoYq7NiTkndt631IhsX5//9NAzbJBpVLLjfJ93NizP4tGhnpbrqRX/Zb9fyOKCfnOYXqkY9DS1QZChd5bp6I6yFJtKMTdfyT6tBgfSpVIt1xDtf/AZjBPVFv/tZyMrY0VFDWiYy5BmwIWQAW8SOPSYn/s9RNRbdQU1SpMEoCzi2QxQuX//vfg1GzIUvw4Z7QOo5tSe5fsbPXvb8g2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBqbsBZmZT1tSTLhShaK+GgL9Lnx1mfOhxmDy7QBH6ul8Zthl+E1aMaLgqnAOKxXP5Lh+TxjgM9tABjUPqrt5FPsN2VoLMY3JWehcSh8E7ifnoC7uKRSIQxitiDHRKDA/V4nCO5CHW1TvhZhV9ShEaHGj8htTi4brnLMthNmEq2NeIWEQVA2twzXLILThtWW0w/AvHf1J0lpd7IR0t/pRieJdQ59m0dYJkQk1A/FMWUsZaGErYT94VrA2ia7fh1J086NMn10DQFzeffr7Tr5lZG8rkVMf9TQDtm4/CF20d9fyCWkOZZaMDd4B47MewGjCIs78pRPY3IFLimQxn0bMEV",
+    "saml.artifact.binding.identifier": "uwOyvR0v9EGOsDRPX22V7/bUFXU=",
+    "saml.artifact.binding": "false",
+    "saml.signature.algorithm": "RSA_SHA256",
+    "saml_force_name_id_format": "true",
+    "saml.client.signature": "false",
+    "saml.authnstatement": "true",
+    "display.on.consent.screen": "false",
+    "saml_name_id_format": "email",
+    "saml.signing.private.key": "MIIEpAIBAAKCAQEA4L7Rb7H1mbQgxvkupeAfndAb0FiRvtGmkxt4LZgGfJmoIDJt4q4ETFoC496rmwlrpA/4sDLvURhZfW3+1fbMc+z6d8aBIfoVWwcw/JU/GnIqI9naFzV1Y7tXSo9FZMjrzLU1uoYq7NiTkndt631IhsX5//9NAzbJBpVLLjfJ93NizP4tGhnpbrqRX/Zb9fyOKCfnOYXqkY9DS1QZChd5bp6I6yFJtKMTdfyT6tBgfSpVIt1xDtf/AZjBPVFv/tZyMrY0VFDWiYy5BmwIWQAW8SOPSYn/s9RNRbdQU1SpMEoCzi2QxQuX//vfg1GzIUvw4Z7QOo5tSe5fsbPXvb8g2QIDAQABAoIBAAiINfs/jktfgz8KhrLVZ13eYK/wLNhJrUE4cb+JXfWs/6z5PSK16IPdhu6PrYQdP3DjClXmGR/DBOK2Ik6NKAXeoUOazZw0mkryYvGz2MlwPBlQU+89oE9A9XdnKQNCfXEwD/Ic1dRYBIIy9oFSKEa1jWAimRHeKpONZ2VByPET5h027Sa/hYqHqd0VHmT5hPvgAnJOZGZdULge+7PBP3Hcp6A5lvCwzZMQa06KHY5Yly1q2lYL5h8qMsNMd/bIEP6BvgNN6ViZHzAvv0m9KaxkwqVeah9+nfr/3j37s+I4fYKROyUaR9OzQH/G4qgUk8gHelwUNhQqD+iRWW/7o4ECgYEA9DIN9lj50k1xdEwHEURpOmonEFGkiGzetxBlVgmzYt287O5mT7aQGL/hfPZbJx5cPaah8peyUF//lCtSeS6A0Hb/iFEMp/Edml9DnxWjP8CKT5b8wQso+RaDA7UUzSNI00VjLqclLE7SbR1bwlrS8C7QMuWSxxxwCr7UPweqCUUCgYEA65wQ5YBwUVzXERC/MPXn6QAqK3O61BJnYbCshCkKCRNXKrajMOiy2WMsiyBZo4JkKPn3MqSaJAbQIPsG3CN4Oim7+AvqzZ3xMxjcvD+csfzmuU4Ep2oIms8d8krpPJK6bCIGtW0v/z5tVhl4kjgld5TWmaxiUi16nsMAUPXEEIUCgYEArg9HuILvf6HH7veKShqTTxn/QjiPqNbBYYeEU/GSNjSLx+6eas9coueS2LnZe2a+pQszgHH0ninvSTQgE1S8aNuJhScQeFz7lt+0mZ6YwIaDj/u1qfxEdlg/htL6QsaV0FIzQjvN2WlNwI0erMiEdsNHkB/noZl5m48uRsc1wmkCgYAMx8t214/AKhwUdecZHc21queesclppZHsD6xcAunjciQhUgTqK0VAW4vYBCo4n2MVgfGx0pH18FSr5VIK8PWdmhPzMZpMCwxBbFDU+VJjqUdOt/eyqSLMWv3R3dRnD8KDCRl6D/ExlE5UBE+xBtCpeu5lKZ+vu33STNugiKRZDQKBgQDnXBJFurptLC1YGkpWm0NwbalYsQcox1k7139Jy3ZT9j2w68JFShEoDOmYqXj0ApSBlzrfjWOdbH/rmooperBw1r39OvlpYyMXREIuILBTuLiRmTAzCGVTXiQtMd7RXklE0XRCKX+0WKNpZk6Fd9jvebKRAMJwOOtOJxt+4vlB8Q==",
+    "saml.allow.ecp.flow": "false",
+    "saml_signature_canonicalization_method": "http://www.w3.org/2001/10/xml-exc-c14n#",
+    "saml.onetimeuse.condition": "false",
+    "saml.server.signature.keyinfo.xmlSigKeyInfoKeyNameTransformer": "NONE"
+  },
+  "authenticationFlowBindingOverrides": {},
+  "fullScopeAllowed": true,
+  "nodeReRegistrationTimeout": -1,
+  "defaultClientScopes": [
+    "saml_organization",
+    "role_list"
+  ],
+  "optionalClientScopes": [],
+  "access": {
+    "view": true,
+    "configure": true,
+    "manage": true
+  }
+}
